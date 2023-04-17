@@ -2,3 +2,41 @@
     margin: 0;
     padding: 0;
 }
+header{
+    /* width: 100%; */
+    padding: 15px;
+    display: flex;
+    border: solid 3px cornflowerblue;
+    align-items: center;
+    justify-content: space-between;
+}
+/* header section:nth-child(2){
+    order: -1;
+} */
+.paragrafos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.paragrafos article:nth-child(2){/*cria uma altura para o artigo 2*/
+    background: rgb(241, 38, 38);
+    height: 350px;/*altura que será o artigo 2*/
+}
+article{    
+    width: 30%;   
+}
+.imagens{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+figure{
+    width: 160px;/*Define a largura que tudo que estiver dentro da tag figure vai ocupar*/
+}
+footer{
+    border: 3px solid cornflowerblue;
+    padding: 15px;
+    display: flex;
+}
